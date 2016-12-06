@@ -9,7 +9,6 @@ B=open(X,'r').readlines()
 
 i = 2
 Latt_vec = []
-tmp = []
 
 while i < 5:
     C = B[i].strip() # get the ith line and remove the whitespace at left
