@@ -1,0 +1,13 @@
+dos2unix *
+
+cp *.vasp POSCAR
+
+SelectiveDynamics_dhx
+
+mv POSCAR_modified POSCAR
+
+cp ~/sub* .
+cp ~/INCAR .
+
+dos2unix *
+yhbatch -N 1 ./sub_vasp.sh
