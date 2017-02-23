@@ -1,7 +1,7 @@
 '''
 This is used to get the directory of each running jobs with the job ID.
 
-It works well in Tianhe II(Guangzhou) and should works as well in else, though I didn't test it.
+It works well in Tianhe II(Guangzhou) and should works as well in else with some modifications, though I didn't test it.
 
 by Linus Deng-Hui Xing
 '''
