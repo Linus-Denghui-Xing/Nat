@@ -1,5 +1,5 @@
 ### add T or F based on fractional z-coordination###
-## By Denghui(Linus).Xing   ##
+## By Linus Deng-Hui Xing   ##
 
 print 'If you are under linux system ,then happy computing!\n'
 print 'If you are under windows system, modify the line 17 as the tips in script.\n'
