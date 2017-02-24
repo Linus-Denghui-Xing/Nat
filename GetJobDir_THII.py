@@ -49,7 +49,8 @@ while i < A :
     F = len(open('infotmp','r').readlines())
     G = open('infotmp','r').readlines()
     print str(i) + '--' + str(D[0]) + ': '
-    print G[F-2].strip('\n')
+    H = G[F-2].split('=')
+    print H[1].strip('\n')
     i=i+1
     os.system('rm infotmp')
 
