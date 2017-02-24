@@ -26,6 +26,6 @@ while i < A :
     os.system(E)
     i=i+1
 
-print 'There are ' + str(A-1) + 'jobs.'
+print 'There are ' + str(A-1) + ' jobs.'
 
 os.system('rm Queue')
