@@ -8,7 +8,7 @@ by Linus Deng-Hui Xing
 
 ### Version 1 ###
 import os
-os.system('squeue|grep R > Queue')
+os.system('squeue|grep R|sort -n > Queue')
 
 A = len(open('Queue','r').readlines())
 #print A  ## Number of lines in this file. FOR DEBUGGING
